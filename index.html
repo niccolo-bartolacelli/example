@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf8">
+
+    <link rel="stylesheet" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script/script.js"></script>
+
+    <title>Titolo</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-title" href="index.html">Titolo</a>
+
+        <div style="padding-right: 25px;">
+            <div class="nav-items-small">
+                <img src="static/images/menu.svg">
+                <ul class="nav-items-small-ul">
+                    <li onclick="goToSection(1)">Sezione 1</li>
+                    <li onclick="goToSection(2)">Sezione 2</span></li>
+                    <li onclick="goToSection(3)">Sezione 3</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="nav-items">
+            <li onclick="goToSection(3)">Sezione 3</li>
+            <li onclick="goToSection(2)">Sezione 2</li>
+            <li onclick="goToSection(1)">Sezione 1</li>
+        </ul>
+    </div>
+
+    <div id="up-btn" onclick="goUp()">
+    </div>
+
+    <div class="parallax" style="--bg: url('images/image1.jpg')">
+        <div class="title">
+            <span class="box">
+                Nome
+            </span>
+        </div>
+    </div>
+
+    <div class="section light" id="section1">
+        <div style="transform: skewY(-5deg);">
+            <h2>Titolo 1</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum
+        </div>
+    </div>
+
+    <div class="parallax" style="--bg: url('images/image2.jpg')">
+    </div>
+
+    <div class="section" id="section2">
+        <h2>Titolo 2</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum
+    </div>
+
+    <div class="parallax" style="--bg: url('images/image3.jpg')">
+    </div>
+
+    <div class="section dark" id="section3">
+        <h2>Titolo 3</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum
+
+        <br>
+        <br>
+
+        <input type="text" class="text-box" placeholder="Hint Text">
+
+        <button>ciao</button>
+
+    </div>
+
+    <div class="parallax" style="--bg: url('images/image4.jpg')">
+    </div>
+</body>
+
+</html>
